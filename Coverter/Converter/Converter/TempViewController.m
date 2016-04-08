@@ -44,7 +44,7 @@
     FTextField.text = [NSString stringWithFormat:@"%f",F];
     FLabel2.text = [NSString stringWithFormat:@"%f",F];
     CLabel1.textColor = [UIColor redColor];
-    FLabel1.textColor = [UIColor redColor];
+    FLabel1.textColor = [UIColor greenColor];
     
 }
 
@@ -55,7 +55,7 @@
     CTextField.text = [NSString stringWithFormat:@"%f",C];
     CLabel2.text = [NSString stringWithFormat:@"%f",C];
     FLabel1.textColor = [UIColor redColor];
-    CLabel1.textColor = [UIColor redColor];
+    CLabel1.textColor = [UIColor greenColor];
 }
 
 - (double) ConvertCelsiusToFahrenheit:(double)c
